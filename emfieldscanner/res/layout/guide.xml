@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" 
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#222266"
+android:gravity="center">
+		<TextView android:id="@+id/guideText"
+		   	android:layout_width="fill_parent" 
+		   	android:layout_height="wrap_content" 
+		   	android:text="@string/guide"
+		   	android:textSize="16dp"
+		   	android:textColor="#FFFFFF"
+		   	android:gravity="center"
+		/>
+</LinearLayout>

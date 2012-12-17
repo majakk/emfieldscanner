@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#222266"
+android:padding="12dp"
+android:gravity="center" android:orientation="vertical">
+    <CheckBox android:text="Wakelock" android:id="@+id/checkBox1" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <TableLayout android:id="@+id/TableLayout01" android:layout_height="2dip" android:layout_width="fill_parent" android:background="#8888EE" android:layout_marginBottom="16dp" android:layout_marginTop="16dp"></TableLayout>
+    <TextView android:text="Sensitivity" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="16dp" android:textColor="#FFFFFF"></TextView>
+    <SeekBar android:id="@+id/seekBar1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:progress="0" android:max="9"></SeekBar>
+    
+    <TableLayout
+		android:id="@+id/settingsbar"
+		android:layout_width="fill_parent"
+		android:layout_height="2dip"
+		android:layout_below="@+id/menu_text"
+		android:background="#8888EE"
+		android:layout_marginTop="32dp"
+		android:layout_marginBottom="16dp"		
+		>
+	</TableLayout>
+    <TextView android:layout_height="wrap_content" android:textSize="16dp" android:layout_width="wrap_content" android:textColor="#FFFFFF" android:text="Autologging" android:id="@+id/textView2"></TextView>
+    <SeekBar android:id="@+id/seekBar2" android:layout_height="wrap_content" android:layout_width="fill_parent" android:max="6"></SeekBar>
+		
+</LinearLayout>
